@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "rag-example"
+version = "0.1.0"
+description = ""
+authors = ["Torsten Zesch <torsten.zesch@gmail.com>"]
+readme = "README.md"
+packages = [{include = "rag_example"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.0.352"
+bs4 = "^0.0.1"
+chroma = "^0.2.0"
+chromadb = "^0.4.21"
+langchainhub = "^0.1.14"
+html2text = "^2020.1.16"
+pypdf = "^4.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
