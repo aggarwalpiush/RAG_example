@@ -1,4 +1,5 @@
 # adapted from https://github.com/aigeek0x0/rag-with-langchain-colbert-and-ragatouille
+#!/bin/python3.11
 import os
 import tempfile
 import streamlit as st
