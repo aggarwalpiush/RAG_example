@@ -2,7 +2,7 @@
 from ragatouille import RAGPretrainedModel
 from langchain_community.document_loaders import PyPDFLoader
 
-path = "/Users/zesch/dkpro/Studienbriefe/deWitt/25104_LE1_Bildung in der digitalisierten Gesellschaft_Final_SoSe23.pdf"
+path = "1706.03762.pdf"
 loader = PyPDFLoader(path)
 r_docs = loader.load_and_split()
 
