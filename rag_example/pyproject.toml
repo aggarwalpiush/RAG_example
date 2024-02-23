@@ -11,10 +11,11 @@ python = "^3.11"
 langchain = "^0.0.352"
 bs4 = "^0.0.1"
 chroma = "^0.2.0"
-chromadb = "^0.3.29"
+chromadb = "^0.4.22""
 langchainhub = "^0.1.14"
 html2text = "^2020.1.16"
 pypdf = "^4.0.1"
+pysqlite3-binary = "^0.5.2"
 
 
 [build-system]
