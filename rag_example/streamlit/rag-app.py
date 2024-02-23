@@ -16,6 +16,10 @@ from langchain.chains import RetrievalQA
 from langchain.retrievers import EnsembleRetriever
 from ragatouille import RAGPretrainedModel
 
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 favicon = Image.open("fuh.png")
 
 st.set_page_config(page_title="RAG with Mistral 7B and ColBERT", page_icon=favicon)
